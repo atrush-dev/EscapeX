@@ -18,22 +18,23 @@
 и Ctrl+Alt+Del не помогают.
 
 ### 🔴 Escape-Kill
-Удерживайте **Escape 10 секунд** — процесс, который был активен в этот
-момент, принудительно завершается (`Process.Kill()`, как «Снять задачу» в
-Диспетчере задач). Целевое окно фиксируется в момент нажатия Escape, а не
-в момент срабатывания таймера — так что если фокус за это время сменится,
-завершится изначально активное окно, а не то, что оказалось сверху позже.
+Удерживайте **Escape 10 секунд** — активная программа принудительно
+закрывается, как «Снять задачу» в Диспетчере задач.
 
-Полезно для зависших полноэкранных игр и приложений.
+Работает с любым режимом окна — настоящим полноэкранным (fullscreen) и
+оконным без рамки (borderless) — так что не важно, как именно запущена
+игра. Если она зависла намертво и не реагирует ни на что — ни Alt+Tab,
+ни Ctrl+Alt+Del не помогают — просто держите Escape, и зависший процесс
+закроется.
 
 ### 🟢 Escape-Stash
 Нажмите **Escape + X вместе** (в любом порядке) — активное окно мгновенно
-сворачивается. Полезно для старых или полноэкранных игр, которые не
-сворачиваются обычным способом.
+сворачивается на панель задач. Пригодится для старых или упрямых
+полноэкранных игр, которые отказываются сворачиваться обычным способом.
 
-Обе функции переключаются независимо из меню трея и защищены от случайного
-завершения системных процессов (explorer, службы Windows, процессы меню
-«Пуск» / панели задач).
+Обе функции можно включать и выключать по отдельности через меню в трее.
+Системные процессы — проводник, меню «Пуск», панель задач — защищены от
+случайного закрытия.
 
 ### Установка
 
@@ -84,23 +85,22 @@ A lightweight Windows tray utility: two hotkeys for force-managing frozen or
 fullscreen windows, for when Alt+Tab / Ctrl+Alt+Del don't cut it.
 
 ### 🔴 Escape-Kill
-Hold **Escape for 10 seconds** — the process that was active at that moment
-gets force-terminated (`Process.Kill()`, same as "End Task" in Task
-Manager). The target window is locked in at the moment you press Escape,
-not when the timer runs out — so if focus shifts during the hold, the
-originally active window still gets killed, not whatever happens to be on
-top later.
+Hold **Escape for 10 seconds** — the active app gets force-terminated,
+same as "End Task" in Task Manager.
 
-Handy for frozen fullscreen games and apps.
+Works with any window mode — true exclusive fullscreen or borderless
+windowed — so it doesn't matter how the game runs. If it's frozen solid
+and won't respond to anything — not Alt+Tab, not Ctrl+Alt+Del — just hold
+Escape and the frozen process gets closed.
 
 ### 🟢 Escape-Stash
 Press **Escape + X together** (either order) — the active window is
-instantly minimized. Useful for older or fullscreen games that won't
-minimize the normal way.
+instantly minimized to the taskbar. Handy for older or stubborn
+fullscreen games that won't minimize the normal way.
 
-Both features can be toggled independently from the tray menu and are
-protected against accidentally hitting system processes (explorer, Windows
-services, the Start menu / taskbar host processes).
+Both features can be toggled independently from the tray menu. System
+processes — explorer, the Start menu, the taskbar — are protected against
+accidental termination.
 
 ### Installation
 
