@@ -16,8 +16,8 @@ using Microsoft.Win32;
 [assembly: AssemblyTitle("EscapeX")]
 [assembly: AssemblyDescription("Трей-утилита для принудительного завершения зависших окон и быстрого сворачивания активного окна")]
 [assembly: AssemblyProduct("EscapeX")]
-[assembly: AssemblyCompany("Alexander Trush")]
-[assembly: AssemblyCopyright("© 2026 Alexander Trush")]
+[assembly: AssemblyCompany("atrush-dev")]
+[assembly: AssemblyCopyright("© 2026 atrush-dev")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
@@ -143,9 +143,10 @@ static class L10n
         { "menu.exit",           "Выход" },
 
         // О программе
-        { "about.text",          "EscapeX 1.0 (28.08.2026)\n\nЛёгкая утилита в трее для принудительного управления зависшими окнами и играми.\n\nEscape-Kill — зажми Escape и удерживай 10 секунд, чтобы закрыть зависшее окно или процесс.\n\nEscape-Stash — нажми одновременно Escape и X, чтобы мгновенно свернуть активное окно (полезно для старых игр, которые не сворачиваются обычным способом).\n\nАвтор: Alexander Trush" },
+        { "about.text",          "EscapeX 1.0 (28.08.2026)\n\nЛёгкая утилита в трее для принудительного управления зависшими окнами и играми.\n\nEscape-Kill — зажми Escape и удерживай 10 секунд, чтобы закрыть зависшее окно или процесс.\n\nEscape-Stash — нажми одновременно Escape и X, чтобы мгновенно свернуть активное окно (полезно для старых игр, которые не сворачиваются обычным способом).\n\nАвтор: atrush-dev" },
         { "about.title",         "О программе" },
         { "about.github",        "Проект на GitHub" },
+        { "about.boosty",        "Поддержать автора (Boosty)" },
 
         // Установка — setup-процесс
         { "setup.ok.text",       "EscapeX успешно добавлен в автозагрузку Windows с повышенными правами.\n\nЧтобы всё заработало полностью (в том числе завершение игр, запущенных от администратора), нужно один раз перезагрузить компьютер или выйти и заново войти в систему.\n\nПосле этого EscapeX будет автоматически появляться в трее и работать в фоне — больше ничего делать не нужно." },
@@ -194,9 +195,10 @@ static class L10n
         { "menu.about",          "About" },
         { "menu.exit",           "Exit" },
 
-        { "about.text",          "EscapeX 1.0 (Aug 28, 2026)\n\nA lightweight tray utility for force-managing frozen windows and games.\n\nEscape-Kill — hold Escape for 10 seconds to close a frozen window or process.\n\nEscape-Stash — press Escape and X together to instantly minimize the active window (handy for older games that won't minimize normally).\n\nAuthor: Alexander Trush" },
+        { "about.text",          "EscapeX 1.0 (Aug 28, 2026)\n\nA lightweight tray utility for force-managing frozen windows and games.\n\nEscape-Kill — hold Escape for 10 seconds to close a frozen window or process.\n\nEscape-Stash — press Escape and X together to instantly minimize the active window (handy for older games that won't minimize normally).\n\nAuthor: atrush-dev" },
         { "about.title",         "About EscapeX" },
         { "about.github",        "Project on GitHub" },
+        { "about.boosty",        "Support the author (Boosty)" },
 
         { "setup.ok.text",       "EscapeX was successfully added to Windows startup with elevated privileges.\n\nFor full functionality (including terminating games that run as Administrator), please restart your PC or sign out and back in once.\n\nAfter that, EscapeX will appear in the tray automatically — nothing else to do." },
         { "setup.ok.title",      "EscapeX — setup complete" },
@@ -1106,7 +1108,7 @@ sealed class TrayApp : ApplicationContext
             form.ShowInTaskbar   = false;
             form.ShowIcon        = false;
             form.StartPosition   = FormStartPosition.CenterScreen;
-            form.ClientSize      = new Size(440, 315);
+            form.ClientSize      = new Size(440, 335);
 
             Label lblText = new Label();
             lblText.Text      = L10n.T("about.text");
@@ -1117,18 +1119,18 @@ sealed class TrayApp : ApplicationContext
             lblText.Size      = new Size(400, 210);
             lblText.TextAlign = ContentAlignment.TopLeft;
 
+            Color linkNormal = Color.FromArgb(46, 204, 113);
+            Color linkHover  = Color.FromArgb(57, 255, 20);
+
             LinkLabel lnkGithub = new LinkLabel();
             lnkGithub.Text            = L10n.T("about.github");
             lnkGithub.Font            = new Font("Segoe UI", 9f);
-            lnkGithub.LinkColor       = Color.FromArgb(46, 204, 113);
-            lnkGithub.ActiveLinkColor = Color.FromArgb(57, 255, 20);
-            lnkGithub.VisitedLinkColor= Color.FromArgb(46, 204, 113);
+            lnkGithub.LinkColor       = linkNormal;
+            lnkGithub.ActiveLinkColor = linkHover;
+            lnkGithub.VisitedLinkColor= linkNormal;
             lnkGithub.LinkBehavior    = LinkBehavior.HoverUnderline;
             lnkGithub.AutoSize        = true;
             lnkGithub.Location        = new Point(20, 240);
-
-            Color linkNormal = Color.FromArgb(46, 204, 113);
-            Color linkHover  = Color.FromArgb(57, 255, 20);
 
             lnkGithub.MouseEnter += delegate { lnkGithub.LinkColor = linkHover; };
             lnkGithub.MouseLeave += delegate { lnkGithub.LinkColor = linkNormal; };
@@ -1142,11 +1144,33 @@ sealed class TrayApp : ApplicationContext
                 catch { }
             };
 
+            LinkLabel lnkBoosty = new LinkLabel();
+            lnkBoosty.Text            = L10n.T("about.boosty");
+            lnkBoosty.Font            = new Font("Segoe UI", 9f);
+            lnkBoosty.LinkColor       = linkNormal;
+            lnkBoosty.ActiveLinkColor = linkHover;
+            lnkBoosty.VisitedLinkColor= linkNormal;
+            lnkBoosty.LinkBehavior    = LinkBehavior.HoverUnderline;
+            lnkBoosty.AutoSize        = true;
+            lnkBoosty.Location        = new Point(20, 265);
+
+            lnkBoosty.MouseEnter += delegate { lnkBoosty.LinkColor = linkHover; };
+            lnkBoosty.MouseLeave += delegate { lnkBoosty.LinkColor = linkNormal; };
+
+            lnkBoosty.LinkClicked += delegate
+            {
+                try
+                {
+                    Process.Start(new ProcessStartInfo("https://boosty.to/atrushdev") { UseShellExecute = true });
+                }
+                catch { }
+            };
+
             Button btnOk = new Button();
             btnOk.Text      = "OK";
             btnOk.Font      = new Font("Segoe UI", 9f);
             btnOk.Size      = new Size(80, 28);
-            btnOk.Location  = new Point(340, 270);
+            btnOk.Location  = new Point(340, 290);
             btnOk.DialogResult = DialogResult.OK;
             btnOk.FlatStyle = FlatStyle.Flat;
             btnOk.BackColor = Color.FromArgb(30, 30, 30);
@@ -1160,6 +1184,7 @@ sealed class TrayApp : ApplicationContext
 
             form.Controls.Add(lblText);
             form.Controls.Add(lnkGithub);
+            form.Controls.Add(lnkBoosty);
             form.Controls.Add(btnOk);
 
             form.ShowDialog();
