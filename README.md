@@ -2,7 +2,6 @@
 
 ![Version](https://img.shields.io/badge/version-1.0-39FF14?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%207%20SP1%2B-lightgrey?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 
 <p align="center">
   <a href="#русский">Русский</a> •
@@ -52,23 +51,19 @@
 Требуется Windows 7 SP1 или новее и права администратора (запрашиваются
 один раз при первом запуске).
 
-### Прозрачность кода
+### Антивирусы
 
 Приложение использует низкоуровневый хук клавиатуры (`WH_KEYBOARD_LL`) и
 запрашивает права администратора для автозапуска и принудительного
 завершения процессов — иногда это вызывает ложные срабатывания
 эвристических/ML-антивирусов (типично для небольших неподписанных утилит).
 
-Исходный код открыт: весь проект — один файл `Program.cs`, собрать его
-можно стандартным компилятором Windows без Visual Studio:
+[Результат проверки на VirusTotal](https://www.virustotal.com/gui/file/636d0065e7cb28c96a445584c33bdf4f4f2ec7f15a3381d205afba3b492a205f)
 
-```
-csc.exe /target:winexe /out:EscapeX.exe Program.cs
-```
+### Поддержать автора
 
-### Лицензия
-
-MIT — см. [LICENSE](LICENSE).
+Если EscapeX оказался полезен — можно поддержать разработку здесь:
+[Boosty](PASTE_BOOSTY_LINK_HERE)
 
 ---
 
@@ -110,21 +105,16 @@ event log.
 Requires Windows 7 SP1 or newer, and administrator rights (requested once
 on first run).
 
-### Code transparency
+### Antivirus notes
 
 The app uses a low-level keyboard hook (`WH_KEYBOARD_LL`) and requests
 administrator rights for autostart and force-killing processes — this
 occasionally triggers false positives from heuristic/ML-based antivirus
 engines (common for small unsigned tools).
 
-The source is open: the whole project is a single `Program.cs` file, built
-with the standard `csc.exe` compiler that ships with Windows — no Visual
-Studio required:
+[VirusTotal scan results](https://www.virustotal.com/gui/file/636d0065e7cb28c96a445584c33bdf4f4f2ec7f15a3381d205afba3b492a205f)
 
-```
-csc.exe /target:winexe /out:EscapeX.exe Program.cs
-```
+### Support
 
-### License
-
-MIT — see [LICENSE](LICENSE).
+If EscapeX has been useful to you, you can support development here:
+[Boosty](PASTE_BOOSTY_LINK_HERE)
