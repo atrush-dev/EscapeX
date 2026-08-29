@@ -60,11 +60,6 @@
 
 [Результат проверки на VirusTotal](https://www.virustotal.com/gui/file/636d0065e7cb28c96a445584c33bdf4f4f2ec7f15a3381d205afba3b492a205f)
 
-### Поддержать автора
-
-Если EscapeX оказался полезен — можно поддержать разработку здесь:
-[Boosty](PASTE_BOOSTY_LINK_HERE)
-
 ---
 
 ## English
@@ -113,8 +108,3 @@ occasionally triggers false positives from heuristic/ML-based antivirus
 engines (common for small unsigned tools).
 
 [VirusTotal scan results](https://www.virustotal.com/gui/file/636d0065e7cb28c96a445584c33bdf4f4f2ec7f15a3381d205afba3b492a205f)
-
-### Support
-
-If EscapeX has been useful to you, you can support development here:
-[Boosty](PASTE_BOOSTY_LINK_HERE)
