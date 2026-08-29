@@ -52,30 +52,23 @@
 Требуется Windows 7 SP1 или новее и права администратора (запрашиваются
 один раз при первом запуске).
 
-### Сборка из исходников
+### Прозрачность кода
 
-Весь проект — это один файл `Program.cs`, собирается компилятором `csc.exe`,
-который идёт в комплекте с Windows — Visual Studio не нужна:
+Приложение использует низкоуровневый хук клавиатуры (`WH_KEYBOARD_LL`) и
+запрашивает права администратора для автозапуска и принудительного
+завершения процессов — иногда это вызывает ложные срабатывания
+эвристических/ML-антивирусов (типично для небольших неподписанных утилит).
+
+Исходный код открыт: весь проект — один файл `Program.cs`, собрать его
+можно стандартным компилятором Windows без Visual Studio:
 
 ```
 csc.exe /target:winexe /out:EscapeX.exe Program.cs
 ```
 
-### Об антивирусах
-
-Приложение использует низкоуровневый хук клавиатуры (`WH_KEYBOARD_LL`) для
-отслеживания Escape/X и запрашивает права администратора для автозапуска и
-принудительного завершения процессов. Такие паттерны иногда вызывают
-ложные срабатывания эвристических/ML-антивирусов (типично для небольших
-неподписанных утилит). Исходный код открыт — можете проверить сами.
-
 ### Лицензия
 
 MIT — см. [LICENSE](LICENSE).
-
-### Автор
-
-Alexander Trush
 
 ---
 
@@ -117,27 +110,21 @@ event log.
 Requires Windows 7 SP1 or newer, and administrator rights (requested once
 on first run).
 
-### Building from source
+### Code transparency
 
-The whole project is a single `Program.cs` file, built with the `csc.exe`
-compiler that ships with Windows — no Visual Studio required:
+The app uses a low-level keyboard hook (`WH_KEYBOARD_LL`) and requests
+administrator rights for autostart and force-killing processes — this
+occasionally triggers false positives from heuristic/ML-based antivirus
+engines (common for small unsigned tools).
+
+The source is open: the whole project is a single `Program.cs` file, built
+with the standard `csc.exe` compiler that ships with Windows — no Visual
+Studio required:
 
 ```
 csc.exe /target:winexe /out:EscapeX.exe Program.cs
 ```
 
-### Security / antivirus notes
-
-The app uses a low-level keyboard hook (`WH_KEYBOARD_LL`) to track
-Escape/X, and requests administrator rights for autostart and force-killing
-processes. These patterns occasionally trigger false positives from
-heuristic/ML-based antivirus engines (common for small unsigned tools). The
-source is open — feel free to check it yourself.
-
 ### License
 
 MIT — see [LICENSE](LICENSE).
-
-### Author
-
-Alexander Trush
