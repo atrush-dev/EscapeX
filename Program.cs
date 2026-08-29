@@ -1137,7 +1137,7 @@ sealed class TrayApp : ApplicationContext
             {
                 try
                 {
-                    Process.Start(new ProcessStartInfo("https://github.com") { UseShellExecute = true });
+                    Process.Start(new ProcessStartInfo("https://github.com/atrush-dev/EscapeX") { UseShellExecute = true });
                 }
                 catch { }
             };
