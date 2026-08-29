@@ -1,8 +1,5 @@
 # EscapeX
 
-A lightweight Windows tray utility: two hotkeys for force-managing frozen or
-fullscreen windows, for when Alt+Tab / Ctrl+Alt+Del don't cut it.
-
 ![Version](https://img.shields.io/badge/version-1.0-39FF14?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%207%20SP1%2B-lightgrey?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
