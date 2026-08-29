@@ -24,7 +24,6 @@
 в момент срабатывания таймера — так что если фокус за это время сменится,
 завершится изначально активное окно, а не то, что оказалось сверху позже.
 
-Идея — небольшая дань уважения функции из старой утилиты Kerish Deblocker.
 Полезно для зависших полноэкранных игр и приложений.
 
 ### 🟢 Escape-Stash
@@ -92,8 +91,7 @@ not when the timer runs out — so if focus shifts during the hold, the
 originally active window still gets killed, not whatever happens to be on
 top later.
 
-The idea is a small homage to a feature from the old Kerish Deblocker
-utility. Handy for frozen fullscreen games and apps.
+Handy for frozen fullscreen games and apps.
 
 ### 🟢 Escape-Stash
 Press **Escape + X together** (either order) — the active window is
