@@ -12,99 +12,140 @@
 
 ## Русский
 
-Лёгкая трей-утилита для Windows: две горячие клавиши для принудительного
-управления зависшими или полноэкранными окнами — на случай, когда Alt+Tab
-и Ctrl+Alt+Del не помогают.
+### Аварийная кнопка для зависших игр и приложений Windows
 
-### 🔴 Escape-Kill
-Удерживайте **Escape 10 секунд** — активная программа принудительно
-закрывается, как «Снять задачу» в Диспетчере задач.
+**EscapeX** — небольшая утилита для Windows, созданная для одной простой задачи: помочь вернуть контроль над системой, когда игра или приложение перестали отвечать.
 
-Работает с любым режимом окна — настоящим полноэкранным (fullscreen) и
-оконным без рамки (borderless) — так что не важно, как именно запущена
-игра. Если она зависла намертво и не реагирует ни на что — ни Alt+Tab,
-ни Ctrl+Alt+Del не помогают — просто держите Escape, и зависший процесс
-закроется.
+Иногда случается самое неприятное: игра зависает в полноэкранном режиме, окно остаётся поверх всех программ, Alt+Tab не работает, а стандартное закрытие не помогает. В таких ситуациях EscapeX выступает как аварийный инструмент.
 
-### 🟢 Escape-Stash
-Нажмите **Escape + X вместе** (в любом порядке) — активное окно мгновенно
-сворачивается на панель задач. Пригодится для старых или упрямых
-полноэкранных игр, которые отказываются сворачиваться обычным способом.
+### Возможности
 
-Обе функции можно включать и выключать по отдельности через меню в трее.
-Системные процессы — проводник, меню «Пуск», панель задач — защищены от
-случайного закрытия.
+#### 🔴 Escape-Kill
+
+Зажмите **Escape на 10 секунд** — зависшее приложение будет принудительно завершено.
+
+Особенность функции в том, что целевое окно запоминается именно в момент нажатия Escape. Если во время ожидания изменится фокус, случайное другое приложение не будет закрыто.
+
+Подходит для:
+
+- зависших игр;
+- полноэкранных приложений;
+- программ, которые перестали реагировать на обычные действия.
+
+Работает по принципу «Снять задачу» в Диспетчере задач Windows.
+
+#### 🟢 Escape-Stash
+
+Нажмите **Escape + X** (в любом порядке) — активное окно будет мгновенно свёрнуто.
+
+Полезно для старых игр и приложений, которые не хотят нормально сворачиваться через стандартные сочетания Windows.
+
+Функцию можно включать и отключать отдельно через меню в системном трее.
+
+### Особенности
+
+- ✅ Работает тихо в фоне через системный трей
+- ✅ Один автономный `.exe` без дополнительных файлов
+- ✅ Русский и английский интерфейс
+- ✅ Автоматический запуск вместе с Windows
+- ✅ Защита важных системных процессов
+- ✅ Журнал событий для диагностики
 
 ### Установка
 
-1. Скачайте `EscapeX.exe` из [Releases](../../releases).
-2. Запустите — при первом запуске программа запросит права администратора
-   (нужны, чтобы `Process.Kill()` работал и с процессами, уже запущенными
-   от администратора) и один раз зарегистрирует себя в Планировщике заданий
-   Windows для автозапуска.
-3. Готово — появится значок в трее, правый клик открывает настройки.
+1. Скачайте `EscapeX.exe` из раздела [Releases](../../releases).
+2. Запустите программу.
+3. При первом запуске потребуется подтверждение прав администратора.
+4. После настройки программа появится в системном трее.
 
-Никаких дополнительных файлов рядом не требуется — всё, включая иконки,
-встроено в exe. Единственный файл, который появляется сам — `escapex_log.txt`,
-журнал событий.
+Дополнительные файлы рядом с программой не требуются.
 
-Требуется Windows 7 SP1 или новее и права администратора (запрашиваются
-один раз при первом запуске).
+Создаваемый файл: `escapex_log.txt` — используется только для журнала событий.
 
-### Антивирусы
+### Требования
 
-Приложение использует низкоуровневый хук клавиатуры (`WH_KEYBOARD_LL`) и
-запрашивает права администратора для автозапуска и принудительного
-завершения процессов — иногда это вызывает ложные срабатывания
-эвристических/ML-антивирусов (типично для небольших неподписанных утилит).
+- Windows 7 SP1 или новее
+- Права администратора (запрашиваются только при первой настройке)
 
-[Результат проверки на VirusTotal](https://www.virustotal.com/gui/file/636d0065e7cb28c96a445584c33bdf4f4f2ec7f15a3381d205afba3b492a205f)
+### Почему антивирус может реагировать?
+
+EscapeX использует системные возможности Windows, необходимые для работы:
+
+- низкоуровневый клавиатурный хук (`WH_KEYBOARD_LL`);
+- управление процессами;
+- повышенные права для отдельных операций.
+
+Некоторые антивирусы могут ошибочно реагировать на такие действия у небольших неподписанных утилит. Это связано с особенностями эвристического анализа, а не с назначением программы.
+
+Проверка: [VirusTotal Scan](https://www.virustotal.com/gui/file/636d0065e7cb28c96a445584c33bdf4f4f2ec7f15a3381d205afba3b492a205f)
 
 ---
 
 ## English
 
-A lightweight Windows tray utility: two hotkeys for force-managing frozen or
-fullscreen windows, for when Alt+Tab / Ctrl+Alt+Del don't cut it.
+### Emergency button for frozen Windows games and applications
 
-### 🔴 Escape-Kill
-Hold **Escape for 10 seconds** — the active app gets force-terminated,
-same as "End Task" in Task Manager.
+**EscapeX** is a small Windows utility designed for one simple purpose: helping users regain control when a game or application stops responding.
 
-Works with any window mode — true exclusive fullscreen or borderless
-windowed — so it doesn't matter how the game runs. If it's frozen solid
-and won't respond to anything — not Alt+Tab, not Ctrl+Alt+Del — just hold
-Escape and the frozen process gets closed.
+Sometimes a fullscreen game gets stuck, stays above all other windows, Alt+Tab stops working, and normal closing methods fail. EscapeX works as an emergency tool for these situations.
 
-### 🟢 Escape-Stash
-Press **Escape + X together** (either order) — the active window is
-instantly minimized to the taskbar. Handy for older or stubborn
-fullscreen games that won't minimize the normal way.
+### Features
 
-Both features can be toggled independently from the tray menu. System
-processes — explorer, the Start menu, the taskbar — are protected against
-accidental termination.
+#### 🔴 Escape-Kill
+
+Hold **Escape for 10 seconds** — the frozen application will be force-terminated.
+
+The target window is captured at the moment Escape is pressed. If focus changes during the countdown, another application will not be accidentally closed.
+
+Useful for:
+
+- frozen games;
+- fullscreen applications;
+- unresponsive programs.
+
+Works similarly to Windows Task Manager's "End Task" function.
+
+#### 🟢 Escape-Stash
+
+Press **Escape + X** (in any order) — the active window is instantly minimized.
+
+Useful for older games and applications that refuse to minimize normally.
+
+The feature can be enabled or disabled separately from the tray menu.
+
+### Features
+
+- ✅ Runs quietly in the system tray
+- ✅ Single portable `.exe` file
+- ✅ Russian and English interface
+- ✅ Windows startup support
+- ✅ Protection against accidental system process termination
+- ✅ Event logging
 
 ### Installation
 
 1. Download `EscapeX.exe` from [Releases](../../releases).
-2. Run it — on first launch it'll ask for administrator rights (needed so
-   `Process.Kill()` also works on processes already running as admin) and
-   register itself once with Windows Task Scheduler for autostart.
-3. Done — the tray icon appears, right-click for settings.
+2. Run the application.
+3. Administrator approval is required during first setup.
+4. The application will appear in the system tray.
 
-No extra files are needed next to the exe — everything, including icons,
-is embedded. The only file that appears on its own is `escapex_log.txt`, an
-event log.
+No additional files are required.
 
-Requires Windows 7 SP1 or newer, and administrator rights (requested once
-on first run).
+Created file: `escapex_log.txt` — used only for event logging.
+
+### Requirements
+
+- Windows 7 SP1 or newer
+- Administrator privileges (requested only during first setup)
 
 ### Antivirus notes
 
-The app uses a low-level keyboard hook (`WH_KEYBOARD_LL`) and requests
-administrator rights for autostart and force-killing processes — this
-occasionally triggers false positives from heuristic/ML-based antivirus
-engines (common for small unsigned tools).
+EscapeX uses Windows features required for its functionality:
 
-[VirusTotal scan results](https://www.virustotal.com/gui/file/636d0065e7cb28c96a445584c33bdf4f4f2ec7f15a3381d205afba3b492a205f)
+- low-level keyboard hook (`WH_KEYBOARD_LL`);
+- process management;
+- elevated privileges for certain operations.
+
+Some antivirus engines may incorrectly flag small unsigned utilities using these features. This is related to heuristic detection and does not reflect the purpose of the application.
+
+Scan: [VirusTotal Scan](https://www.virustotal.com/gui/file/636d0065e7cb28c96a445584c33bdf4f4f2ec7f15a3381d205afba3b492a205f)
