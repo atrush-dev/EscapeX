@@ -1,116 +1,257 @@
-# 📌 Project Description & Search Tags / Описание проекта и поисковые теги (EscapeX)
+<div align="center">
 
-This file contains universal texts for the **GitHub repository (About section)**, **Boosty posts/profile**, as well as recommended tags and keywords for organic search discovery.
+# ⚡ EscapeX
 
-All texts are universal: no hardcoded version numbers (no need to rewrite on future updates) and with neutral, modern gaming HUD terminology.
+<p align="center">
+  <strong>Emergency Killer & Instant Stash for Frozen Games & Fullscreen Applications</strong><br>
+  <em>Аварийный выключатель и мгновенный стеш для зависших игр и полноэкранных приложений</em><br>
+  <em>Single Standalone EXE • Zero Installers • 100% Offline • Instant Response</em>
+</p>
 
----
-
-## 1. Short Repository Description (GitHub About)
-
-> ⚠️ **GitHub limit for the Description field is strictly 350 characters.**  
-> Both versions below are verified and fit comfortably within the limit.
-
-### English Version (341 characters with spaces)
-```text
-EscapeX — emergency killer & instant stash for frozen fullscreen games and apps. Hold Escape (3–15s) to force-kill frozen processes without Alt+Tab or Task Manager. Modern gaming HUD overlay, 10 gaming themes with wallpapers, studio voice acting (4 languages, M/F), 5 UI languages, zero network, single standalone portable EXE without installation.
-```
-
-### Русская версия (320 символов с пробелами)
-```text
-EscapeX — аварийный выключатель и мгновенный стеш для зависших игр и полноэкранных окон. Зажми Escape на 3–15 сек для мгновенного закрытия зависшего процесса без Alt+Tab и диспетчера задач. Современный игровой HUD, 10 игровых тем с арт-обоями, голосовая озвучка (4 языка, М/Ж), 5 языков UI, 0% сети, один автономный EXE без установки.
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Windows_7_--_11-0078D6.svg?style=for-the-badge&logo=windows" alt="Windows">
+  <img src="https://img.shields.io/badge/.NET_Framework-4.0+-blue.svg?style=for-the-badge" alt=".NET 4.0+">
+  <img src="https://img.shields.io/badge/Dependencies-0_Zero-success.svg?style=for-the-badge" alt="Zero Dependencies">
+  <img src="https://img.shields.io/badge/Format-Single_EXE-orange.svg?style=for-the-badge" alt="Portable">
+  <img src="https://img.shields.io/badge/Network-100%25_Offline-green.svg?style=for-the-badge" alt="Offline">
+</p>
 
 ---
 
-## 2. Recommended Topics for GitHub
+### 💡 Quick Overview
 
-In your GitHub repository, click the gear icon in the **About** section on the right and add the following topics:
-
-```text
-game-utility, task-killer, process-killer, frozen-games, fullscreen-fix, gaming-hud, escape-kill, windows-tools, gamer-tools, hotkey-utility, anti-freeze, csharp-winforms
-```
-
-### Topics Reference:
-| GitHub Topic | Category & Target Audience |
-|---|---|
-| `game-utility` | Primary global category for gaming tools and PC utilities |
-| `task-killer` | Most popular query for users looking for an emergency task manager alternative |
-| `process-killer` | Technical query for forced process termination tools |
-| `frozen-games` | Direct match for users searching how to close frozen games |
-| `fullscreen-fix` | Search query for issues with frozen fullscreen windows |
-| `gaming-hud` | Attracts users interested in stylish in-game HUD overlays |
-| `escape-kill` | Brand name of the unique key-hold mechanic |
-| `windows-tools` | Broad category for Windows system utilities |
-| `gamer-tools` | Discovery tag for PC gamers and streamers |
-| `hotkey-utility` | Category for keyboard shortcut and automation utilities |
-| `anti-freeze` | Solutions for freezes, stutters, and black screens |
-| `csharp-winforms` | Tech stack tag for developers and enthusiasts |
+**EscapeX** is an ultra-lightweight Windows utility built to solve a classic PC gaming nightmare: **games hard-freezing in fullscreen mode**, where `Alt + Tab` and `Win` keys are unresponsive, and Windows Task Manager gets trapped behind a black screen.
+- 🛑 **Escape-Kill:** simply hold `Escape` for 3–15 seconds — a sleek circular gaming HUD overlay appears, and the frozen process is forcefully terminated.
+- ⚡ **Escape-Stash:** instantly minimize or restore uncooperative games that block standard Windows shortcuts.
+- 🎨 **10 Gaming Themes with Wallpapers:** Cyberpunk, S.T.A.L.K.E.R. 2, CS2, Genshin Impact, Batman, Battlefield 3/4, Spider-Man, Saints Row, Minecraft.
+- 🔊 **Voice Acting (4 languages, M/F)**, 5 UI languages, zero network traffic, single portable executable without installation.
 
 ---
 
-## 3. Boosty Publications & Profile
+### 💡 О программе в двух словах
 
-### Short Announcement / Preview
-```text
-⚡ EscapeX — The ultimate emergency tool for frozen games! / Спасение от намертво зависших игр!
-
-A game froze solid with a black screen, mouse locked, Alt+Tab unresponsive, and Task Manager trapped behind the frozen screen? 
-
-Simply hold down the Escape key for a few seconds — and the frozen process is cleanly and instantly terminated!
-
-Key Highlights:
-🎯 Modern gaming circular HUD timer with targeting scale and laser chevron
-⚡ Instant stash & minimize for uncooperative games via Alt+Z
-🎨 10 gaming themes (Cyberpunk, STALKER 2, CS2, Genshin Impact, Batman...) with art wallpapers
-🔊 Studio voice acting in 4 languages (male and female voices)
-🌐 Full localization across 5 languages (English, Русский, Қазақша, Беларуская, Українська)
-🚀 Single standalone EXE: zero installation, no system clutter, 100% offline!
-
-Download the ready-to-run file below and keep total control over your PC!
-```
-
-### Extended Post / Boosty Profile Description
-```text
-EscapeX — Your personal emergency circuit breaker for frozen games on Windows.
-
-Tired of games freezing solid, blacking out your screen, looping audio, and ignoring Alt+Tab and Task Manager? No more hard rebooting your PC or losing unsaved work in other applications!
-
-EscapeX runs quietly in the system tray, uses just 15 MB of RAM, and stands ready at all times:
-• Escape-Kill: hold Escape for 3–15 seconds — a sleek circular gaming HUD appears and cleanly force-kills the frozen process.
-• Escape-Stash: press Alt+Z (or your custom hotkey) to instantly minimize or restore any uncooperative fullscreen game.
-• 10 custom gaming palettes, full background art wallpapers, studio voices, and 100% offline autonomy (zero network calls, zero installers).
-
-Thank you for supporting the project on Boosty! Your support keeps development going strong!
-```
+**EscapeX** — ультралёгкая утилита для Windows, решающая главную проблему геймеров: **намертво зависшие игры в полноэкранном режиме**, когда не работают `Alt + Tab` и `Win`, а Диспетчер задач прячется за чёрным экраном.
+- 🛑 **Escape-Kill:** просто зажмите клавишу `Escape` на 3–15 секунд — появится стильный игровой HUD-таймер, и зависший процесс будет принудительно и чисто закрыт.
+- ⚡ **Escape-Stash:** мгновенное сворачивание и разворачивание даже тех игр, которые блокируют системные горячие клавиши Windows.
+- 🎨 **10 Игровых тем с обоями:** Cyberpunk, S.T.A.L.K.E.R. 2, CS2, Genshin Impact, Batman, Battlefield 3/4, Spider-Man, Saints Row, Minecraft.
+- 🔊 **Голосовая озвучка (4 языка, М/Ж)**, мультиязычность (5 языков интерфейса), 0% трафика и работа из одного автономного файла без установки.
 
 ---
 
-## 4. Boosty Tags
+</div>
 
-Copy into the tags field when publishing on Boosty:
-```text
-#игры #утилиты #гейминг #софт #windows #escapex #пк #полезное #оптимизация #оверлей
-```
+<details>
+<summary><h2>English — Full Documentation & Guide</h2></summary>
+
+## 🎯 The Problem & The Solution
+
+Every PC gamer knows this nightmare:
+> A game freezes solid in fullscreen mode. Black screen, looped sound, mouse cursor locked. The `Win` key does nothing, `Alt + Tab` switches into a void, and Windows Task Manager opens **behind** the frozen game screen. The only option left is holding down the power button and hard-rebooting your PC.
+
+**EscapeX solves this once and for all:**
+1. You simply **hold the Escape key** for a few seconds (configurable from 3 to 15s).
+2. A sleek, modern circular gaming HUD overlay appears on screen, counting down the seconds and displaying the frozen process name and PID.
+3. Once the countdown completes, the frozen process is **immediately and forcefully terminated**.
+4. A voice notification confirms the kill, a toast card pops up in the corner, and you are back to your desktop without rebooting or losing unsaved work in other apps!
 
 ---
 
-## 5. Search Queries (SEO for Google, YouTube, Yandex)
+## ✨ Key Features
 
-Organically use these phrases in posts, descriptions, and video tags:
+### 🛑 1. Escape-Kill (Emergency Circuit Breaker)
+- **Key Hold instead of finger gymnastics:** no need to press awkward multi-key combos — just hold `Escape`.
+- **Target Lock:** the app captures the active window at the exact moment Escape is pressed. If focus shifts during the countdown, the originally frozen game is still terminated.
+- **Adjustable Duration:** easily adjust the hold threshold from 3 to 15 seconds using your mouse wheel directly on the tray badge.
+- **Normal Escape works transparently:** quick taps of the Escape key in games and desktop apps are never delayed or intercepted.
+- **OS Safety Shield:** desktop, taskbar, explorer, and vital Windows system processes are strictly protected from accidental termination.
 
-- how to close frozen game without task manager
-- game frozen black screen alt tab not working
-- emergency kill frozen game windows
-- how to force close game when pc freezes
-- close frozen process hotkey
-- kerish deblocker alternative escape kill
-- how to minimize game that wont minimize
-- gamer utility force close frozen games
-- gaming hud overlay timer on desktop
-- tool against frozen fullscreen games
-- как закрыть зависшую игру без диспетчера задач
-- игра зависла черный экран не работает alt tab
-- аварийное закрытие зависших игр windows
-- как закрыть игру если завис компьютер
-- закрыть зависший процесс горячей клавишей
+### ⚡ 2. Escape-Stash (Instant Game Hide & Restore)
+- **Force Minimize:** instantly minimizes even uncooperative games that refuse to minimize via standard Windows shortcuts.
+- **Two-Way Toggle:** pressing the hotkey again instantly restores and refocuses the exact same game window.
+- **Custom Hotkeys:** presets included (`Alt + Z`, `Ctrl + Space`, `Alt + Q`), plus an intuitive recording dialog to bind any key combination you prefer.
+
+### 👁️ 3. Modern Gaming HUD Overlay
+- Fully transparent hardware-accelerated vector overlay rendered via `UpdateLayeredWindow`.
+- Circular optics radial tick graduations every 15°, chamfered tech badges (`CyberChamferRect`), dynamic laser chevron tip tracking the progress arc, and tactical corner brackets `[  ]`.
+- Native DPI vector scaling for **Full HD (1080p)**, **2K (1440p)**, and **4K (2160p)** displays.
+
+### 🎨 4. 10 Gaming Palettes + Full Art Wallpapers
+Seamlessly cycle through 10 hand-crafted gaming themes:
+- 🟡 **Cyberpunk 2077** (Electric yellow neon Night City style — default)
+- 🔴 **Spider-Man** (Comic-book bright red)
+- 🟣 **Saints Row** (Signature neon purple)
+- 🔵 **Battlefield 3** (Tactical cyan-blue HUD)
+- 🟠 **Battlefield 4** (Amber-orange military HUD)
+- 🟢 **S.T.A.L.K.E.R. 2** (Radiation hazard green)
+- 🔷 **Batman** (Noir deep-blue Gotham Knight)
+- ⚪ **Genshin Impact** (Elegant light ivory with gold accents)
+- 🟩 **Minecraft** (Lush pixel grass green)
+- 🟨 **Counter-Strike 2** (Competitive amber-gold)
+
+> **Art Wallpapers:** 10 high-resolution 640×360 background illustrations embedded directly into the executable. Toggle on or off anytime via the menu.
+
+### 🔊 5. Studio Voice Acting in 4 Languages
+- Clear voice confirmation upon every successful kill.
+- Toggle between **Male** and **Female** voices with a single click.
+- Supported voiceover languages: **English**, **Russian**, **Kazakh**, **Ukrainian**.
+- Powered directly by low-latency Win32 multimedia API (`mciSendString`) without heavy external media frameworks.
+
+### 🌐 6. 5 Fully Localized UI Languages
+Entire user interface, tooltips, dialogs, and badges available in:
+- 🌐 **English**
+- 🇷🇺 **Russian** (Русский)
+- 🇰🇿 **Kazakh** (Қазақша)
+- 🇧🇾 **Belarusian** (Беларуская)
+- 🇺🇦 **Ukrainian** (Українська)
+
+### 🚀 7. Zero Bloat & Standalone Portability
+- **Single Portable EXE:** everything is packed into a single `EscapeX.exe` (~3.9 MB). High-definition **TT Lakes** fonts, sounds, and art wallpapers are embedded as resources.
+- **Zero Network Traffic:** 0 bytes transmitted. No telemetry, no auto-updater network calls, no analytics.
+- **Lightweight:** consumes just 10–18 MB of RAM and 0% CPU when idle in tray.
+- **Silent Administrator Autostart:** optional Windows Task Scheduler integration (`schtasks`) launches with highest privileges at user logon without nagging UAC popups.
+
+---
+
+## ⌨️ Controls & Shortcuts Reference
+
+| Action | Default Control | Description |
+|---|---|---|
+| **Escape-Kill** | Hold `Escape` (3–15s) | Terminates the frozen foreground window process |
+| **Escape-Stash** | `Alt + Z` (or custom hotkey) | Instantly minimizes / restores the game |
+| **Timer Adjustment** | Mouse Wheel on tray badge | Changes hold duration threshold (3, 4, 5 ... 15 sec) |
+| **Rebind Stash Hotkey** | Click on Stash badge | Opens hotkey recording & preset selection dialog |
+| **Cycle Theme** | Click on color swatch badge | Cycles through all 10 gaming color palettes |
+| **Toggle Wallpaper** | Click on picture icon | Turns tray menu art illustration on or off |
+| **Sound & Gender** | Click speaker & [M]/[W] badge | Toggles voice acting on/off and switches voice gender |
+| **Select Language** | Click on language bar | Expands selector to switch between 5 languages |
+
+---
+
+## 💻 System Requirements
+
+- **Operating System:** Windows 7 SP1 / 8.1 / 10 / 11 (32-bit and 64-bit).
+- **Runtime:** .NET Framework 4.0 or newer (pre-installed on virtually all modern Windows machines).
+- **Privileges:** Administrator privileges recommended (required to kill games and applications running with elevated rights).
+
+---
+
+## 🛡️ Anti-Cheat & Security
+
+- EscapeX **never injects DLLs** into other processes and **never reads or modifies game memory**.
+- Safe to use alongside Valve Anti-Cheat (VAC), Easy Anti-Cheat, BattlEye, Riot Vanguard, and other gaming anti-cheat solutions.
+- Uses only standard `WH_KEYBOARD_LL` low-level keyboard hook and official Windows API process termination calls.
+
+</details>
+
+---
+
+<details>
+<summary><h2>Русский — Полное описание и руководство</h2></summary>
+
+## 🎯 В чём проблема и как её решает EscapeX?
+
+Каждый геймер сталкивался с неприятной ситуацией:
+> Игра намертво зависла в полноэкранном режиме. Чёрный экран, звук зациклился, курсор мыши заблокирован. Клавиша `Win` не реагирует, `Alt + Tab` переключает в пустоту, а системный Диспетчер задач открывается **под** зависшим окном игры. Единственный выход — удерживать кнопку питания системного блока и аварийно перезагружать ПК.
+
+**EscapeX решает эту проблему навсегда:**
+1. Вы просто **зажимаете клавишу Escape** на несколько секунд (настраивается от 3 до 15 сек).
+2. На экране появляется современный круговой игровой HUD-таймер, отсчитывающий секунды и показывающий имя зависшего процесса.
+3. По истечении таймера зависший процесс **мгновенно и гарантированно завершается**.
+4. Звучит голосовое подтверждение на вашем языке, всплывает карточка с деталями, а вы остаётесь в системе без перезагрузки компьютера и потери остальных открытых программ!
+
+---
+
+## ✨ Ключевые возможности
+
+### 🛑 1. Escape-Kill (Аварийный выключатель)
+- **Удержание вместо комбинаций:** не нужно вспоминать сложные комбинации клавиш — просто зажмите `Escape`.
+- **Умная фиксация цели:** программа запоминает окно, которое было активно в момент нажатия. Если за время удержания фокус соскочил, закрывается именно зависшая игра.
+- **Регулировка времени:** время удержания легко меняется от 3 до 15 секунд колёсиком мыши прямо по бейджу в меню трея.
+- **Обычный Escape работает штатно:** одиночные быстрые нажатия клавиши в играх и программах не блокируются и не задерживаются.
+- **Защита системы:** рабочий стол, проводник и важные процессы Windows надёжно защищены от случайного закрытия.
+
+### ⚡ 2. Escape-Stash (Мгновенный стеш / скрытие)
+- Позволяет **мгновенно свернуть** даже ту игру, которая категорически отказывается сворачиваться стандартными средствами Windows.
+- **Двусторонний цикл (Toggle):** повторное нажатие хоткея мгновенно возвращает вас обратно в игру.
+- **Любые комбинации:** поддерживаются пресеты (`Alt + Z`, `Ctrl + Space`, `Alt + Q`), а также свободный захват любой удобной вам комбинации клавиш через отдельный диалог.
+
+### 👁️ 3. Современный игровой HUD-оверлей
+- Полностью прозрачный аппаратный векторный оверлей на базе `UpdateLayeredWindow`.
+- Радиальная шкала прицеливания с рисками через каждые 15°, скошенные технологические плашки процесса `CyberChamferRect`, динамический лазерный шеврон и прицельные скобки `[  ]`.
+- Автоматическое векторное масштабирование под мониторы **Full HD (1080p)**, **2K (1440p)** и **4K (2160p)**.
+
+### 🎨 4. 10 Тематических игровых палитр + Арт-обои
+Меню трея, оверлей и диалоги переключаются между 10 тщательно подобранными палитрами:
+- 🟡 **Cyberpunk 2077** (электрический жёлтый, неоновый стиль Найт-Сити)
+- 🔴 **Spider-Man** (комиксный ярко-красный)
+- 🟣 **Saints Row** (неоново-фиолетовый)
+- 🔵 **Battlefield 3** (лазурный тактический HUD)
+- 🟠 **Battlefield 4** (янтарно-оранжевый милитари)
+- 🟢 **S.T.A.L.K.E.R. 2** (радиационно-зелёный аномальный стиль)
+- 🔷 **Batman** (нуарный тёмно-синий Готэм)
+- ⚪ **Genshin Impact** (светлая благородная слоновая кость с золотом)
+- 🟩 **Minecraft** (сочный пиксельно-зелёный)
+- 🟨 **Counter-Strike 2** (соревновательный янтарно-золотой)
+
+> **Арт-обои:** в программу вшиты 10 полноценных иллюстраций 640×360. Их можно включить или выключить в один клик кнопкой в меню.
+
+### 🔊 5. Голосовая озвучка на 4 языках
+- При успешном завершении процесса программа подтверждает действие приятным голосом.
+- Доступны **Мужской** и **Женский** голоса.
+- Поддерживаются языки озвучки: **Русский**, **English**, **Қазақша**, **Українська**.
+- Воспроизведение работает напрямую через Win32 API без задержек и сторонних кодеков.
+
+### 🌐 6. Полная локализация на 5 языков
+Весь интерфейс, бейджи, диалоги и подсказки переведены на 5 языков:
+- 🌐 **English**
+- 🇷🇺 **Русский**
+- 🇰🇿 **Қазақша**
+- 🇧🇾 **Беларуская**
+- 🇺🇦 **Українська**
+
+Язык переключается в специальной разворачиваемой панели в трее и сохраняется навсегда.
+
+### 🚀 7. Автономность и чистая система
+- **Single Portable EXE:** весь функционал собран в один файл `EscapeX.exe` (~3.9 МБ). Шрифты **TT Lakes**, звуки и арты вшиты внутрь бинарника.
+- **Ноль сетевой активности:** утилита не выходит в интернет, не собирает телеметрию и не отправляет данные.
+- **Минимум ресурсов:** потребляет всего 10–18 МБ оперативной памяти и 0% CPU в режиме ожидания.
+- **Тихая автозагрузка:** пункт «Запускать при старте Windows» создаёт задачу в Планировщике заданий (`schtasks`), запуская программу от администратора без надоедливых окон UAC при каждом включении ПК.
+
+---
+
+## ⌨️ Управление и горячие клавиши
+
+| Действие | Управление по умолчанию | Описание |
+|---|---|---|
+| **Escape-Kill** | Зажатие `Escape` (3–15 сек) | Завершает зависший процесс активного окна |
+| **Escape-Stash** | `Alt + Z` (или свой хоткей) | Мгновенно сворачивает / разворачивает игру |
+| **Регулировка таймера** | Колёсико мыши на бейдже в трее | Меняет порог удержания (3, 4, 5 ... 15 сек) |
+| **Перепривязка Stash** | Клик по бейджу комбинации | Открывает окно захвата новой комбинации клавиш |
+| **Смена темы** | Клик по цветному квадрату | Циклически переключает 10 игровых тем |
+| **Фоновые обои** | Клик по иконке картины | Включает / отключает арт-подложку в меню |
+| **Звук и голос** | Клик по динамику и бейджу [М]/[Ж] | Включает озвучку и переключает мужской/женский голос |
+| **Выбор языка** | Клик по плашке языка | Разворачивает панель выбора из 5 языков |
+
+---
+
+## 💻 Системные требования
+
+- **Операционная система:** Windows 7 SP1 / 8.1 / 10 / 11 (32-bit и 64-bit).
+- **Среда выполнения:** .NET Framework 4.0 или новее (встроен по умолчанию во все современные версии Windows).
+- **Права доступа:** рекомендуется запуск от имени администратора (для возможности управления процессами, запущенными с повышенными привилегиями).
+
+---
+
+## 🛡️ Безопасность и античиты
+
+- Программа **не внедряет DLL** в сторонние процессы и **не модифицирует память игр**, что полностью исключает ложные срабатывания любых античитов (Valve Anti-Cheat, Easy Anti-Cheat, BattlEye, Vanguard).
+- Используется исключительно стандартный системный перехватчик `WH_KEYBOARD_LL` и штатный вызов закрытия процесса Windows API.
+
+</details>
+
+---
+
+<p align="center">
+  <strong>EscapeX — Total control over your PC in any game!</strong><br>
+  <em>EscapeX — Полный контроль над ПК в любой игре!</em>
+</p>
