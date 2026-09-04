@@ -1,31 +1,36 @@
 <div align="center">
 
-# ⚡ EscapeX 3.0
-
-**[🇷🇺 Русская версия](#-escapex-30---русская-версия)** &nbsp;•&nbsp; **[🇬🇧 English version](#-escapex-30---english-version)**
-
-</div>
-
----
-
-<div id="russian-version"></div>
-
-# ⚡ EscapeX 3.0 — Русская версия
+# ⚡ EscapeX
 
 <p align="center">
   <strong>Аварийный выключатель и мгновенный стеш для зависших игр и полноэкранных приложений</strong><br>
-  <em>Один автономный EXE-файл • Без инсталляторов • Без интернета • Мгновенная реакция</em>
+  <strong>Emergency Killer & Instant Stash for Frozen Games & Fullscreen Applications</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Версия-3.0-yellow.svg?style=for-the-badge&logo=windows" alt="Version 3.0">
-  <img src="https://img.shields.io/badge/.NET_Framework-4.0+-blue.svg?style=for-the-badge" alt=".NET 4.0+">
   <img src="https://img.shields.io/badge/Платформа-Windows_7_--_11-0078D6.svg?style=for-the-badge&logo=windows" alt="Windows">
+  <img src="https://img.shields.io/badge/.NET_Framework-4.0+-blue.svg?style=for-the-badge" alt=".NET 4.0+">
   <img src="https://img.shields.io/badge/Зависимости-0_Zero-success.svg?style=for-the-badge" alt="Zero Dependencies">
   <img src="https://img.shields.io/badge/Формат-Single_EXE-orange.svg?style=for-the-badge" alt="Portable">
+  <img src="https://img.shields.io/badge/Сеть-100%25_Offline-green.svg?style=for-the-badge" alt="Offline">
 </p>
 
 ---
+
+### 💡 О программе в двух словах / Quick Overview
+
+**EscapeX** — ультралёгкая утилита для Windows, решающая главную проблему геймеров: **намертво зависшие игры в полноэкранном режиме**, когда не работают `Alt + Tab` и `Win`, а Диспетчер задач прячется за чёрным экраном.
+- 🛑 **Escape-Kill:** просто зажмите клавишу `Escape` на 3–15 секунд — появится стильный игровой HUD-таймер, и зависший процесс будет принудительно и чисто закрыт.
+- ⚡ **Escape-Stash:** мгновенное сворачивание и разворачивание даже тех игр, которые блокируют системные горячие клавиши Windows.
+- 🎨 **10 Игровых тем с обоями:** Cyberpunk, S.T.A.L.K.E.R. 2, CS2, Genshin Impact, Batman, Battlefield 3/4, Spider-Man, Saints Row, Minecraft.
+- 🔊 **Голосовая озвучка (4 языка, М/Ж)**, мультиязычность (5 языков интерфейса), 0% трафика и работа из одного автономного файла без установки.
+
+---
+
+</div>
+
+<details>
+<summary><h2>🇷🇺 Полное описание на русском языке (Нажмите, чтобы открыть)</h2></summary>
 
 ## 🎯 В чём проблема и как её решает EscapeX?
 
@@ -33,8 +38,8 @@
 > Игра намертво зависла в полноэкранном режиме. Чёрный экран, звук зациклился, курсор мыши заблокирован. Клавиша `Win` не реагирует, `Alt + Tab` переключает в пустоту, а системный Диспетчер задач открывается **под** зависшим окном игры. Единственный выход — удерживать кнопку питания системного блока и аварийно перезагружать ПК.
 
 **EscapeX решает эту проблему навсегда:**
-1. Вы просто **зажимаете клавишу Escape** на несколько секунд (от 3 до 15 сек).
-2. На экране появляется крутой высокотехнологичный HUD-таймер в стиле **Cyberpunk 2077**, отсчитывающий секунды и показывающий имя зависшего процесса.
+1. Вы просто **зажимаете клавишу Escape** на несколько секунд (настраивается от 3 до 15 сек).
+2. На экране появляется современный круговой игровой HUD-таймер, отсчитывающий секунды и показывающий имя зависшего процесса.
 3. По истечении таймера зависший процесс **мгновенно и гарантированно завершается**.
 4. Звучит голосовое подтверждение на вашем языке, всплывает карточка с деталями, а вы остаётесь в системе без перезагрузки компьютера и потери остальных открытых программ!
 
@@ -44,20 +49,20 @@
 
 ### 🛑 1. Escape-Kill (Аварийный выключатель)
 - **Удержание вместо комбинаций:** не нужно вспоминать сложные комбинации клавиш — просто зажмите `Escape`.
-- **Умная фиксация:** программа запоминает окно, которое было активно в момент нажатия. Если за время удержания фокус соскочил, закрывается именно зависшая игра.
-- **Регулировка времени:** время удержания легко меняется от 3 до 15 секунд колёсиком мыши прямо в меню трея.
+- **Умная фиксация цели:** программа запоминает окно, которое было активно в момент нажатия. Если за время удержания фокус соскочил, закрывается именно зависшая игра.
+- **Регулировка времени:** время удержания легко меняется от 3 до 15 секунд колёсиком мыши прямо по бейджу в меню трея.
 - **Обычный Escape работает штатно:** одиночные быстрые нажатия клавиши в играх и программах не блокируются и не задерживаются.
 - **Защита системы:** рабочий стол, проводник и важные процессы Windows надёжно защищены от случайного закрытия.
 
 ### ⚡ 2. Escape-Stash (Мгновенный стеш / скрытие)
 - Позволяет **мгновенно свернуть** даже ту игру, которая категорически отказывается сворачиваться стандартными средствами Windows.
 - **Двусторонний цикл (Toggle):** повторное нажатие хоткея мгновенно возвращает вас обратно в игру.
-- **Любые комбинации:** поддерживаются пресеты (`Alt + Z`, `Ctrl + Space`, `Alt + Q`), а также свободный захват любой удобной вам комбинации клавиш через удобный диалог.
+- **Любые комбинации:** поддерживаются пресеты (`Alt + Z`, `Ctrl + Space`, `Alt + Q`), а также свободный захват любой удобной вам комбинации клавиш через отдельный диалог.
 
-### 👁️ 3. HUD-интерфейс в стиле Cyberpunk 2077
-- Полностью прозрачный векторный оверлей на базе `UpdateLayeredWindow`.
-- Радиальная шкала прицеливания с рисками через каждые 15°, скошенные технологические плашки процесса `CyberChamferRect`, лазерный шеврон и прицельные скобки.
-- Автоматическое масштабирование под мониторы **Full HD (1080p)**, **2K (1440p)** и **4K (2160p)**.
+### 👁️ 3. Современный игровой HUD-оверлей
+- Полностью прозрачный аппаратный векторный оверлей на базе `UpdateLayeredWindow`.
+- Радиальная шкала прицеливания с рисками через каждые 15°, скошенные технологические плашки процесса `CyberChamferRect`, динамический лазерный шеврон и прицельные скобки `[  ]`.
+- Автоматическое векторное масштабирование под мониторы **Full HD (1080p)**, **2K (1440p)** и **4K (2160p)**.
 
 ### 🎨 4. 10 Тематических игровых палитр + Арт-обои
 Меню трея, оверлей и диалоги переключаются между 10 тщательно подобранными палитрами:
@@ -83,7 +88,7 @@
 ### 🌐 6. Полная локализация на 5 языков
 Весь интерфейс, бейджи, диалоги и подсказки переведены на 5 языков:
 - 🇷🇺 **Русский**
-- 🇬🇧 **English**
+- 🌐 **English**
 - 🇰🇿 **Қазақша**
 - 🇧🇾 **Беларуская**
 - 🇺🇦 **Українська**
@@ -126,29 +131,12 @@
 - Программа **не внедряет DLL** в сторонние процессы и **не модифицирует память игр**, что полностью исключает ложные срабатывания любых античитов (Valve Anti-Cheat, Easy Anti-Cheat, BattlEye, Vanguard).
 - Используется исключительно стандартный системный перехватчик `WH_KEYBOARD_LL` и штатный вызов закрытия процесса Windows API.
 
----
-
-<details id="english-version">
-<summary><h3>🇬🇧 Click here to expand English version (Нажмите для открытия английской версии)</h3></summary>
-
-<div id="-escapex-30---english-version"></div>
-
-# ⚡ EscapeX 3.0 — English Version
-
-<p align="center">
-  <strong>Emergency Killer & Instant Stash for Frozen Fullscreen Games & Applications</strong><br>
-  <em>Single Standalone EXE • Zero Installers • No Internet Required • Instant Response</em>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Version-3.0-yellow.svg?style=for-the-badge&logo=windows" alt="Version 3.0">
-  <img src="https://img.shields.io/badge/.NET_Framework-4.0+-blue.svg?style=for-the-badge" alt=".NET 4.0+">
-  <img src="https://img.shields.io/badge/Platform-Windows_7_--_11-0078D6.svg?style=for-the-badge&logo=windows" alt="Windows">
-  <img src="https://img.shields.io/badge/Dependencies-0_Zero-success.svg?style=for-the-badge" alt="Zero Dependencies">
-  <img src="https://img.shields.io/badge/Format-Single_EXE-orange.svg?style=for-the-badge" alt="Portable">
-</p>
+</details>
 
 ---
+
+<details>
+<summary><h2>English Full Description & Manual (Click to expand)</h2></summary>
 
 ## 🎯 The Problem & The Solution
 
@@ -157,7 +145,7 @@ Every PC gamer knows this nightmare:
 
 **EscapeX solves this once and for all:**
 1. You simply **hold the Escape key** for a few seconds (configurable from 3 to 15s).
-2. A high-tech **Cyberpunk 2077** style HUD overlay appears on screen, counting down the seconds and displaying the frozen process name and PID.
+2. A sleek, modern circular gaming HUD overlay appears on screen, counting down the seconds and displaying the frozen process name and PID.
 3. Once the countdown completes, the frozen process is **immediately and forcefully terminated**.
 4. A voice notification confirms the kill, a toast card pops up in the corner, and you are back to your desktop without rebooting or losing unsaved work in other apps!
 
@@ -177,10 +165,10 @@ Every PC gamer knows this nightmare:
 - **Two-Way Toggle:** pressing the hotkey again instantly restores and refocuses the exact same game window.
 - **Custom Hotkeys:** presets included (`Alt + Z`, `Ctrl + Space`, `Alt + Q`), plus an intuitive recording dialog to bind any key combination you prefer.
 
-### 👁️ 3. Cyberpunk 2077 HUD Overlay
+### 👁️ 3. Modern Gaming HUD Overlay
 - Fully transparent hardware-accelerated vector overlay rendered via `UpdateLayeredWindow`.
-- Kiroshi optics radial tick graduations every 15°, chamfered tech badges (`CyberChamferRect`), animated laser chevron tip tracking the progress arc, and tactical corner brackets `[  ]`.
-- Native DPI scaling for **Full HD (1080p)**, **2K (1440p)**, and **4K (2160p)** displays.
+- Circular optics radial tick graduations every 15°, chamfered tech badges (`CyberChamferRect`), dynamic laser chevron tip tracking the progress arc, and tactical corner brackets `[  ]`.
+- Native DPI vector scaling for **Full HD (1080p)**, **2K (1440p)**, and **4K (2160p)** displays.
 
 ### 🎨 4. 10 Gaming Palettes + Full Art Wallpapers
 Seamlessly cycle through 10 hand-crafted gaming themes:
@@ -206,7 +194,7 @@ Seamlessly cycle through 10 hand-crafted gaming themes:
 ### 🌐 6. 5 Fully Localized UI Languages
 Entire user interface, tooltips, dialogs, and badges available in:
 - 🇷🇺 **Russian** (Русский)
-- 🇬🇧 **English**
+- 🌐 **English**
 - 🇰🇿 **Kazakh** (Қазақша)
 - 🇧🇾 **Belarusian** (Беларуская)
 - 🇺🇦 **Ukrainian** (Українська)
@@ -253,5 +241,6 @@ Entire user interface, tooltips, dialogs, and badges available in:
 ---
 
 <p align="center">
-  <strong>EscapeX 3.0 — Keep total control over your PC in any game!</strong>
+  <strong>EscapeX — Полный контроль над ПК в любой игре!</strong><br>
+  <strong>EscapeX — Total control over your PC in any game!</strong>
 </p>
